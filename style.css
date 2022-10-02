@@ -85,8 +85,12 @@ ul{
     JUSTIFY-CONTENT: space-around;
     font-size: 14px;
     color: white;
+    list-style: none;
+
  
 }
+
+
 
 
 .container{
@@ -100,6 +104,7 @@ ul{
     background-color: #400d40;
     width: 50%;
     height: 500px;
+    padding-left: 5%;
 }
 
 .container-1-item-1{
@@ -177,6 +182,7 @@ ul{
     flex-direction: column-reverse;
     align-items: flex-end;
     justify-content: center;
+    padding-right: 5%;
 }
 
 .container-2-video{
@@ -189,4 +195,81 @@ ul{
 .container-video{
 
     width: 106%
+}
+
+
+.container-0-separator{
+
+    background-color: #f4ede4;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-0-separator-sub{
+
+    background-color: #f4ede4;
+    padding-top: 2%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+.container-logotips-empresas{
+
+ background-color: #f4ede4;
+ height: 93px;
+ display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.logotips-icon{
+    width: 80px;
+}
+
+.container-2-video-text{
+
+    width: 100%;
+    background-color: #f4ede4;
+    display: flex;
+    height: 380px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container-2-video{
+    background-color: #f4ede4;
+    width: 50%;
+    height: 380px;
+    
+}
+
+
+.container-2-text{
+    
+    background-color: #f4ede4;
+    width: 50%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-sub{
+    background-color: #f4ede4;
+    width: 77%
+}
+
+.video-src{
+    width: 91%
 }
